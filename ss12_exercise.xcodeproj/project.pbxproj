@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90C9658120B2E080008BDCCB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C9658020B2E080008BDCCB /* main.cpp */; };
+		90C9658920B2E2BA008BDCCB /* 12.1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C9658720B2E2BA008BDCCB /* 12.1.cpp */; };
+		90C9658D20B2EF66008BDCCB /* 12.4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C9658B20B2EF66008BDCCB /* 12.4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,11 @@
 
 /* Begin PBXFileReference section */
 		90C9657D20B2E07F008BDCCB /* ss12_exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ss12_exercise; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C9658020B2E080008BDCCB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		90C9658720B2E2BA008BDCCB /* 12.1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12.1.cpp; sourceTree = "<group>"; };
+		90C9658820B2E2BA008BDCCB /* 12.1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 12.1.hpp; sourceTree = "<group>"; };
+		90C9658A20B2E57C008BDCCB /* mystring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mystring.h; sourceTree = "<group>"; };
+		90C9658B20B2EF66008BDCCB /* 12.4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12.4.cpp; sourceTree = "<group>"; };
+		90C9658C20B2EF66008BDCCB /* 12.4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 12.4.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		90C9657F20B2E07F008BDCCB /* ss12_exercise */ = {
 			isa = PBXGroup;
 			children = (
-				90C9658020B2E080008BDCCB /* main.cpp */,
+				90C9658720B2E2BA008BDCCB /* 12.1.cpp */,
+				90C9658820B2E2BA008BDCCB /* 12.1.hpp */,
+				90C9658A20B2E57C008BDCCB /* mystring.h */,
+				90C9658B20B2EF66008BDCCB /* 12.4.cpp */,
+				90C9658C20B2EF66008BDCCB /* 12.4.hpp */,
 			);
 			path = ss12_exercise;
 			sourceTree = "<group>";
@@ -118,7 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C9658120B2E080008BDCCB /* main.cpp in Sources */,
+				90C9658D20B2EF66008BDCCB /* 12.4.cpp in Sources */,
+				90C9658920B2E2BA008BDCCB /* 12.1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
